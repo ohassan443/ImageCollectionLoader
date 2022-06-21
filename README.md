@@ -21,7 +21,7 @@ Image loading and caching into tableViews and collectionViews library for iOS wr
    * Independent components that can be used seperatly :    
         - Disk Caching and Ram Caching 
         - Variable Ram Cache 
-        - Image Loader thats has access to the disk cache 
+        - Image Loader that has access to the disk cache 
         - Option to delete all disk cached images or images that were accessed after a certain date only 
 # Depenedencies 
   * ReachabilitySwift
@@ -35,7 +35,7 @@ Image loading and caching into tableViews and collectionViews library for iOS wr
 
 # Installation
  > Avaliable through CocoaPods  
-  ``` pod 'RedPanda' ```
+  ``` pod 'ImageCollectionLoader' ```
 # Usage
 ```swift
    import ImageCollectionLoader
